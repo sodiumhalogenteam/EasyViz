@@ -1,0 +1,18 @@
+.c-sidebar {
+  background-color: $color-gray-100;
+  &__header {
+    padding: 2.3rem $spacing-large 0 $spacing-large;
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__links {
+    list-style: none;
+    padding-left: 3rem;
+  }
+  &__link {
+    margin-bottom: 1rem;
+  }
+}

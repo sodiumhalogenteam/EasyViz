@@ -1,0 +1,56 @@
+input[type=text] {
+  &:focus {
+    border-color: $color-action-orange-500;
+    outline: $color-action-orange-500;
+    box-shadow: 0 0 0 0.05em lighten($color-action-orange-500, 35%),
+      0 0 0.15em 0.1em lighten($color-action-orange-500, 35%);
+  }
+}
+
+.c-checkbox {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+  font-size: 1rem;
+  color: var(--color);
+
+  &__control {
+    display: inline-grid;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.25em;
+    border: 0.1em solid currentColor;
+
+    svg {
+      transition: transform 0.1s ease-in 25ms;
+      transform: scale(0);
+      transform-origin: bottom left;
+    }
+  }
+
+  &__input {
+    display: grid;
+
+    > * {
+      grid-area: checkbox;
+    }
+
+    input {
+      opacity: 0;
+      width: 1em;
+      height: 1em;
+
+      &:focus + .c-checkbox__control {
+        box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.1em currentColor;
+      }
+
+      &:checked + .c-checkbox__control svg {
+        transform: scale(1);
+      }
+
+      &:disabled + .c-checkbox__control {
+        color: var(--disabled);
+      }
+    }
+  }
+}

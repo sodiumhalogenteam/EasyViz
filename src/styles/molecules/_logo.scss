@@ -1,0 +1,23 @@
+.c-logo{
+  display: flex;
+  &__image {
+    height: 4.5rem;
+  }
+  &__plan {
+    color: $color-white;
+    padding: 1.1rem $spacing 0.5rem $spacing;
+    margin: 0 0 0 0.5rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-size: $font-size-sm;
+    &--standard {
+      background: $color-gray-500;
+    }
+    &--plus {
+      background: $color-action-orange-700;
+    }
+    &--pro {
+      background: $brand-red;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+// #TEXT
+$color-body-text: $color-gray-800;
+$color-body-bg: $color-white;
+
+// Highlight colors
+$color-text-highlight: $color-gray-800;
+$color-text-highlight-bg: $color-gray-500;
+
+// #LINKS
+$color-links: $color-gray-900 !default;
+$color-links-hover: $color-action-orange-500 !default;
+$color-links-active: $color-action-orange-500 !default;
+
+// #BUTTONS
+$color-btn-primary: $color-white !default;
+$color-btn-primary-bg: $color-action-orange-500 !default;
+$color-btn-primary-bg-hover: $color-action-orange-300 !default;
+$color-btn-primary-border: $color-action-orange-500 !default;
+
+$color-btn-secondary: $color-white !default;
+$color-btn-secondary-bg: $color-action-orange-300 !default;
+$color-btn-secondary-bg-hover: $color-action-orange-500 !default;
+$color-btn-secondary-border: $color-action-orange-300 !default;
+
+$color-btn-outline: $color-action-orange-500 !default;
+$color-btn-outline-bg: transparent !default;
+$color-btn-outline-bg-hover: $color-action-orange-500 !default;
+$color-btn-outline-border: $color-action-orange-500 !default;
+
+// #BORDERS
+$border-thickness: 1px;
+$border-radius: 4px;
+
+// #ANIMATION
+$anim-fade-quick: 0.15s;
+$anim-fade-long: 0.5s;
+$anim-ease: ease-out;
+
+// FORMS
+$color-form: $color-gray-900 !default;
+$color-form-bg: $color-white !default;
+$color-form-border: $color-gray-700 !default;
+$color-form-border-focus: $color-action-orange-500 !default;
+$color-form-border-disabled: $color-gray-500 !default;
+$color-form-border-error: $color-utility-error !default;
+$color-form-label: $color-gray-900 !default;
+$color-form-info: $color-gray-700;
+$color-form-placeholder: $color-gray-500;
+
+$color-form-disabled: $color-gray-500 !default;
+$color-form-bg-disabled: $color-gray-100 !default;
+$color-form-border-disabled: $color-gray-100 !default;

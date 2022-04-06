@@ -1,0 +1,63 @@
+$brand-red: #c2000c;
+$brand-red-alt: #e6222f;
+
+$color-black: #000;
+$color-gray-900: #334347;
+$color-gray-800: #5b6c70;
+$color-gray-700: #7c8b8f;
+$color-gray-600: #a3abad;
+$color-gray-500: #c1c6c7;
+$color-gray-400: #cfd3d4;
+$color-gray-300: #e1e5e6;
+$color-gray-200: #e8eced;
+$color-gray-100: #f2f4f5;
+$color-white: #fff;
+
+$color-action-orange-500: #ff4f00;
+$color-action-orange-300: #ff7433;
+$color-action-orange-700: #e64900;
+
+$color-utility-success: #30a629;
+$color-utility-warning: #e6be17;
+$color-utility-error: #e61717;
+
+// Font/text values
+$font-family-primary: "Roboto", "Helvetica", "Arial", sans-serif;
+$font-family-secondary: "Jost", serif;
+$font-style-normal: normal;
+$font-weight-600: 600px;
+$font-weight-normal: normal;
+$font-weight-medium: medium;
+$font-size-sm: 12px;
+$font-size-med: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$character-spacing-0: 0px;
+$line-spacing-16: 16px;
+$line-spacing-18: 18px;
+$line-spacing-21: 21px;
+$line-spacing-22: 22px;
+$line-spacing-30: 30px;
+$text-transform-uppercase: uppercase;
+
+// LAYOUT
+// Max Width
+$l-max-width: 80rem !default;
+$l-max-width-narrow: 45rem !default;
+$l-linelength-width: 36rem !default;
+
+// SPACING
+// Spacing and offsets --> Used to space grids and body padding
+$spacing: 1rem;
+$spacing-small: round(0.5 * $spacing);
+$spacing-med: round(1.5 * $spacing);
+$spacing-large: round(2 * $spacing);
+$spacing-xlarge: round(4 * $spacing);
+
+// BREAKPOINTS
+// Breakpoints used in media queries --> These are not the only breakpoints used, but they provide a few defaults
+$bp-small: 28em;
+$bp-small-2: 35em;
+$bp-med: 47em;
+$bp-large: 60em;
+$bp-xl: 70em;

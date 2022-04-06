@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: $spacing-large 8px;
+}
+thead {
+  border: 2px solid $color-gray-400;
+  border-top: 4px solid $color-gray-100;
+  border-right: 0;
+  border-left: 0;
+  font-size: $font-size-sm;
+}
+thead th {
+  text-transform: uppercase;
+  text-align: left;
+}
+tbody tr {
+  border-bottom: 2px solid $color-gray-100;
+}

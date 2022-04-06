@@ -1,0 +1,68 @@
+.c-btn {
+  display: inline-block;
+  border: $border-thickness solid $color-btn-primary-border;
+  background: $color-btn-primary-bg;
+  transition: all 0.4s ease;
+  color: $color-btn-primary;
+  line-height: 1;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  transition: all $anim-fade-quick $anim-ease;
+  border-radius: 26px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 1.75rem;
+    fill: $color-btn-primary;
+    transition: fill $anim-fade-quick $anim-ease;
+    padding-right: 1rem;
+  }
+
+  &:hover,
+  &:focus {
+    transition: all 0.4s ease;
+    color: $color-btn-primary;
+    background: $color-btn-primary-bg-hover;
+  }
+}
+
+.c-btn-alt {
+  @extend .c-btn;
+  border-color: $color-btn-secondary-border;
+  background: $color-btn-secondary-bg;
+
+  &:hover,
+  &:focus {
+    background: $color-btn-secondary-bg-hover;
+  }
+}
+
+.c-btn-outline {
+  @extend .c-btn;
+  color: $color-btn-outline;
+  border-color: $color-btn-outline-border;
+  background: $color-btn-outline-bg;
+
+  &:hover,
+  &:focus {
+    background: $color-btn-outline-bg-hover;
+  }
+}
+
+.c-btn-link {
+  @extend .c-btn;
+  border-color: transparent;
+  color: $color-btn-primary-bg;
+  background: transparent;
+
+  &:hover,
+  &:focus {
+    background: $color-btn-secondary-bg;
+
+  }
+}

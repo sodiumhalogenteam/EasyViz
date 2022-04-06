@@ -1,0 +1,12 @@
+.c-field {
+  &__label {
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+  }
+  &__note {
+    color: $color-gray-600;
+  }
+  &__error {
+    color: $color-utility-error;
+  }
+}

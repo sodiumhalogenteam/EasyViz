@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+// Layout Container --> Caps the width of the content to the maximum width and centers the container
+.l-container {
+  margin: 0 auto;
+
+  @media all and (min-width: $bp-large) {
+    padding: 0;
+  }
+}
+
+// 2 column layout
+.l-view-layout--sidebar {
+  display: flex;
+  flex-direction: column;
+
+  @media all and (min-width: $bp-med) {
+    flex-direction: row;
+  }
+}
+
+.l-view-layout__main {
+  padding: 0 $spacing-xlarge;
+  .l-view-layout--two-column & {
+    @media all and (min-width: $bp-med) {
+      width: 70%;
+      padding-right: $spacing;
+    }
+  }
+}
+
+// Sidebar
+.l-view-layout__sidebar {
+  width: 40rem;
+}
