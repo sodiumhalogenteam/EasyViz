@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import BarChart from "./molecules/BarChart";
+import LineChart from "./styles/molecules/LineChart";
 
 const datas = [
   [10, 30, 40, 20],
@@ -26,6 +27,7 @@ function App() {
       <h2>Graphs with React</h2>
       <button onClick={changeData}>Change Data</button>
       <BarChart width={600} height={400} data={data} />
+      <LineChart />
     </div>
   );
 }

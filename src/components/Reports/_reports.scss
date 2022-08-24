@@ -1,0 +1,103 @@
+.c-report-widget {
+  padding: 0 3rem;
+  border: 4px solid $color-report-border;
+  border-radius: $border-radius;
+  max-width: 88rem;
+}
+
+.c-stats-widget {
+  @extend .c-report-widget;
+
+  &__title {
+    font-weight: bold;
+  }
+  &__stat {
+    color: $color-report-stat-text;
+    font-size: 10rem;
+    margin: -3rem 0 0 0;
+  }
+  &__section {
+  }
+  &__label {
+    text-transform: uppercase;
+    font-size: $font-size-sm;
+    color: $color-report-label;
+  }
+  &__content {
+    display: flex;
+    color: $color-report-content;
+    justify-content: space-between;
+  }
+  &__key {
+  }
+  &__value {
+  }
+}
+
+.c-bar-widget {
+  @extend .c-report-widget;
+  padding: 0 3rem 3rem 3rem;
+  position: relative;
+
+  &__title {
+    font-weight: bold;
+  }
+  &__stat {
+    color: $color-report-stat-text;
+    font-size: 10rem;
+    margin: -3rem 0 0 0;
+  }
+  &__bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    height: 5rem;
+    background: $color-report-bar-bg;
+    border-radius: $border-radius;
+  }
+  &__label {
+    z-index: 1;
+    padding: 0 0 0 2rem;
+    color: $color-report-bar-label;
+  }
+  &__value {
+    z-index: 1;
+    padding: 0 2rem 0 0;
+  }
+  &__fill {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    border-radius: $border-radius;
+    background-color: $color-report-bar-fill;
+    z-index: 0;
+  }
+  &__empty-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  &--empty {
+    .c-bar-widget__value,
+    .c-bar-widget__label {
+      display: none;
+    }
+    .c-bar-widget__bar {
+      opacity: 0.2;
+    }
+  }
+}
+
+.c-box {
+  margin: 0 0 4rem 0;
+  padding: 4rem;
+  background-color: $color-gray-100;
+  background-color: $color-white;
+  border: 4px solid $color-report-border;
+}

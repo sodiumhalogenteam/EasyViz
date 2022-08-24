@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./_barchart.scss";
 import BarChart from "././BarChart";
-import StackedBarChart from "./StackedBarChart";
-import colors from "./colors";
-import data from "./data";
-import keys from "./keys";
 
 export default {
   title: "Molecules/Bar Chart",
@@ -32,16 +28,8 @@ export function BarChart1() {
   return (
     <div className="App">
       <h2>Graphs with React</h2>
-      <button onClick={changeData}>Change Data</button>
+      {/* <button onClick={changeData}>Change Data</button> */}
       <BarChart width={600} height={400} data={data} />
-    </div>
-  );
-}
-
-export function StackedBarChart1() {
-  return (
-    <div className="stacked">
-      <StackedBarChart colors={colors} data={data} keys={keys} />
     </div>
   );
 }

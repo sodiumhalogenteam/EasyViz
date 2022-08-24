@@ -4,6 +4,10 @@ import colors from "./colors";
 import data from "./data";
 import keys from "./keys";
 
+export default {
+  title: "Molecules/Stacked Bar Chart",
+};
+
 export function StackedBarChart1() {
   return (
     <div className="stacked">

@@ -27,36 +27,39 @@ svg {
 }
 
 // abstracts
-@import './styles/abstracts/variables';
-@import './styles/abstracts/colors';
-@import './styles/abstracts/mixins';
+@import "./styles/abstracts/variables";
+@import "./styles/abstracts/colors";
+@import "./styles/abstracts/mixins";
 
 // utilities
-@import './styles/utilities/spacing';
-@import './styles/utilities/visibility';
+@import "./styles/utilities/spacing";
+@import "./styles/utilities/visibility";
 
 // base
-@import './styles/base/body';
-@import './styles/base/headings';
-@import './styles/base/forms';
-@import './styles/base/text';
+@import "./styles/base/body";
+@import "./styles/base/headings";
+@import "./styles/base/forms";
+@import "./styles/base/text";
 
 // layout
-@import './styles/layout/layout';
+@import "./styles/layout/layout";
 
 // atoms
-@import './styles/atoms/icons';
-@import './styles/atoms/input';
-@import './styles/atoms/textarea';
-@import './styles/atoms/table';
+@import "./styles/atoms/icons";
+@import "./styles/atoms/input";
+@import "./styles/atoms/textarea";
+@import "./styles/atoms/table";
 
 // molecules
-@import './styles/molecules/button';
-@import './styles/molecules/logo';
-@import './styles/molecules/barchart';
-@import './styles/molecules/textField';
-@import './styles/molecules/title';
+@import "./styles/molecules/button";
+@import "./styles/molecules/logo";
+@import "./styles/molecules/textField";
+@import "./styles/molecules/title";
 
 // organisms
-@import './styles/organisms/sidebar';
+@import "./styles/organisms/sidebar";
 
+// components
+@import "./styles/components/barchart";
+@import "./styles/components/linechart";
+@import "./styles/components/reports";
