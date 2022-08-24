@@ -17,6 +17,9 @@ $color-action-orange-500: #ff4f00;
 $color-action-orange-300: #ff7433;
 $color-action-orange-700: #e64900;
 
+$color-action-green-500: #8ca608;
+$color-action-green-300: #6c800d;
+
 $color-action-blue-500: #0088cc;
 $color-action-blue-300: #17a1e6;
 $color-action-blue-700: #0a4766;
@@ -41,6 +44,7 @@ $font-style-normal: normal;
 $font-weight-600: 600px;
 $font-weight-normal: normal;
 $font-weight-medium: medium;
+$font-weight-bold: bold;
 $font-size-sm: 12px;
 $font-size-med: 16px;
 $font-size-lg: 18px;
@@ -65,7 +69,8 @@ $spacing: 1rem;
 $spacing-small: round(0.5 * $spacing);
 $spacing-med: round(1.5 * $spacing);
 $spacing-large: round(2 * $spacing);
-$spacing-xlarge: round(4 * $spacing);
+$spacing-xlarge: round(3 * $spacing);
+$spacing-xxlarge: round(4 * $spacing);
 
 // BREAKPOINTS
 // Breakpoints used in media queries --> These are not the only breakpoints used, but they provide a few defaults

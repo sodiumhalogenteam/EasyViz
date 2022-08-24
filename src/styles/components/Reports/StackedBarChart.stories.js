@@ -1,8 +1,8 @@
 import "./_barchart.scss";
 import StackedBarChart from "./StackedBarChart";
-import colors from "./colors";
-import data from "./data";
-import keys from "./keys";
+import colors from "./ReportsData/colors";
+import data from "./ReportsData/data";
+import keys from "./ReportsData/keys";
 
 export default {
   title: "Molecules/Stacked Bar Chart",

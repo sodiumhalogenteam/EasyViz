@@ -60,7 +60,7 @@ function lineChart(svgRef: React.RefObject<SVGSVGElement>, data: ChartLine[]) {
 
   /* Add SVG */
   svg
-    .attr("viewBox", `500 0 50 600`)
+    .attr("viewBox", `500 0 50 100`)
     .attr("preserveAspectRatio", "xMidYMid meet")
     .append("g")
     .attr("transform", `translate(${margin}, ${margin})`);
@@ -239,14 +239,7 @@ interface DrawChart {
 export const DrawChart = (props: DrawChart) => {
   const svg = React.useRef<SVGSVGElement>(null);
 
-  const svgWithRef = (
-    <svg
-      ref={svg}
-      width="1000px"
-      height="531px"
-      preserveAspectRatio="xMidYMid meet"
-    />
-  );
+  const svgWithRef = <svg ref={svg} preserveAspectRatio="xMidYMid meet" />;
 
   d3.select(svg.current).selectAll("g > *").remove();
 

@@ -60,6 +60,6 @@ svg {
 @import "./styles/organisms/sidebar";
 
 // components
-@import "./styles/components/barchart";
-@import "./styles/components/linechart";
-@import "./styles/components/reports";
+@import "./styles/components/Reports/barchart";
+@import "./styles/components/Reports/linechart";
+@import "./styles/components/Reports/reports";
