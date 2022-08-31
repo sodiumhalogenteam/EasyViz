@@ -1,4 +1,4 @@
-# EasyD3
+# EasyViz
 
 https://reaviz.io/?path=/docs/docs-getting-started-data-shapes--page
 
